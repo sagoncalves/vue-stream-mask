@@ -1,29 +1,20 @@
-# vue-stream-mask-page
+# Vue Stream Mask Component
 
-## Project setup
-```
-yarn install
-```
+## Setup
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
+``` bash
+# install dependencies
+yarn add vue-stream-mask
+
 ```
 
-### Compiles and minifies for production
-```
-yarn run build
-```
+## Use
 
-### Run your tests
-```
-yarn run test
-```
+```html
+<script>
+  import * as StreamBlur from "vue-stream-mask"
 
-### Lints and fixes files
-```
-yarn run lint
-```
+  Vue.use(StreamBlur)
+</script>
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+```
