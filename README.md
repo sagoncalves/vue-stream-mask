@@ -1,6 +1,10 @@
 ## Vue Stream Mask Component
-
 You can see it working live here [vue-stream-mask demo](https://sagoncalves.github.io/vue-stream-mask/ "vue-stream-mask demo")
+
+Features
+- Person & multi-person body segmentation blurring video background
+- Green screen mask, you can use the background you wish with a simple property
+
 
 #### Add to your project
 ``` bash
@@ -61,6 +65,13 @@ Example:
 </script>
 
 ```
+
+## Methods
+| function | Description                    |
+| ------------- | ------------------------------ |
+| `async init() `| Triggering this function will start video capture and return a media stream object |
+| `stop() `| Triggering this function will stop video capture |
+
 
 ## Props
 | Property name | Description                    |
