@@ -20,7 +20,7 @@ Vue.use(VueStreamMask)
 ```
 
 ## Ways of use
-####- Default -
+#### - Default -
 By default when the component loads it ask for the camera media and later emits the loaded event wich serves as a parameter the stream that you can add to a RTCPeerConnection, If you want to avoid this behaviour check the on demand way of use.
 
 Example:
@@ -62,7 +62,7 @@ Example:
 
 ```
 
-##Props
+## Props
 | Property name | Description                    |
 | ------------- | ------------------------------ |
 | `await`      | Component wont ask for media stream until you run the init() func       |
