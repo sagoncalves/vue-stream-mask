@@ -8129,10 +8129,10 @@ vue-loader@^15.9.1:
     vue-hot-reload-api "^2.3.0"
     vue-style-loader "^4.1.0"
 
-vue-stream-mask@^0.1.7:
-  version "0.1.7"
-  resolved "https://registry.yarnpkg.com/vue-stream-mask/-/vue-stream-mask-0.1.7.tgz#2e8f9578d042fe72dc96bf607bf9547f0ce6f196"
-  integrity sha512-1z7qrjL+u8r1Y7k6MBAdinjIsEf44zG1CPaFYsMQk+bDbxZssuc+/4wMCqlGHVwo0aYUL5jlOWweeIgMZuJNFA==
+vue-stream-mask@^0.1.9:
+  version "0.1.9"
+  resolved "https://registry.yarnpkg.com/vue-stream-mask/-/vue-stream-mask-0.1.9.tgz#8e210e3bc25f9f3d2828c983584a0d5b2dfdc6ad"
+  integrity sha512-QEWqcf4yeqK5W0+V0glw/5SsRFuIuStgyif9ZOxChpwj0R6MalcbbgFu+VC5PEDhx7Kdv0d1E8L/7gwGvlNIQw==
   dependencies:
     "@tensorflow-models/body-pix" "^2.0.5"
     "@tensorflow/tfjs" "^1.7.3"
