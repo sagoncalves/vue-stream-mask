@@ -40,7 +40,6 @@ Example:
 		//      pc is an RTCPeerConnection created elsewhere
 		this.pc.addStream(stream);
 	}
-	pc.addStream(stream);
 </script>
 
 ```
@@ -61,7 +60,6 @@ Example:
 		//      pc is an RTCPeerConnection created elsewhere
 		this.pc.addStream(stream);
 	}
-	pc.addStream(stream);
 </script>
 
 ```
